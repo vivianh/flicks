@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MovieItemStyle">
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="MovieDetailsText" parent="@style/MovieItemStyle">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="MoviePoster" parent="@style/MovieItemStyle">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">250dp</item>
+    </style>
+
+    <style name="MoviePosterLandscape" parent="@style/MovieItemStyle">
+        <item name="android:layout_width">400dp</item>
+        <item name="android:layout_height">250dp</item>
+    </style>
+
+    <style name="MovieTitleFont">
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+</resources>
